@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Comment = require('../models/Comment');
-const Post = require('../models/Post'); // ১. Post মডেলটি অবশ্যই ইম্পোর্ট করতে হবে
+const Comment = require('../models/comment');
+const Post = require('../models/post');
 const jwt = require('jsonwebtoken');
 
 // টোকেন ভেরিফাই করার মিডলওয়্যার (নিরাপত্তার জন্য)
